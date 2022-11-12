@@ -14,10 +14,15 @@ function submitButton(){
     }else{
         if(btnPos.style.textAlign=="right"){
             btnPos.style.textAlign="left"
-            btnEl.textContent="Pehel data dal !!  "
+            btnEl.textContent="Pehel data dal !! 😒  "
         }else{
             btnPos.style.textAlign="right"
-            btnEl.textContent="Pehel data dal !!"
+            btnEl.textContent="Pehel data dal !! 😒"
         }
     }
+}
+
+function subButton(){
+    document.querySelector(".login-menu").classList.add("disable-login")
+    document.querySelector("h1").innerText="Good Work 👍💯"
 }

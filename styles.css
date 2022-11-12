@@ -19,4 +19,7 @@ input{
     border: 2px solid black;
     padding: 5px;
 }
+.disable-login{
+    display: none;
+}
 
